@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Cutive Mono', monospace;
+  color: white;
+  text-shadow: 1px 1px 2px rgb(2, 15, 102);
+  background-image: url(img/FridayCorner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 6em;
+}
+
+h3 {
+  padding-left: 6px;
+  font-weight: 900;
+}
+
+hr {
+  margin-left: 6px;
+  width: 350px;
+  box-shadow: 1px 1px 2px rgb(2, 15, 102);
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: rgb(2, 15, 102);
+}
+
+
+
+i {
+  padding: 6px;
+}
+
+#content {
+  padding-top: 25%;
+}
