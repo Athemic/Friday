@@ -14,17 +14,17 @@ body {
 
 h1 {
   font-weight: 700;
-  font-size: 5em;
+  font-size: 120px;
 }
 
 h3 {
-  padding-left: 6px;
+  font-size: 60px;
   font-weight: 700;
 }
 
 hr {
   margin-left: 6px;
-  width: 350px;
+  width: 100%;
   box-shadow: 1px 1px 2px rgb(2, 15, 102);
 }
 
@@ -36,12 +36,11 @@ a:hover {
   color: rgb(2, 15, 102);
 }
 
-
-
 i {
   padding: 6px;
 }
 
 #content {
-  padding-top: 25%;
+  padding-top: 40%;
+  padding-right: 40%;
 }
