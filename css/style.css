@@ -1,0 +1,22 @@
+.full__page {
+  display: grid;
+  grid-template-rows: auto;
+  border: 2px solid red;
+  align-items: stretch;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.tagline {
+  margin: 0;
+  background-color: blue;
+}
+
+.reviews {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+}
