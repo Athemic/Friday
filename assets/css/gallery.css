@@ -1,0 +1,70 @@
+
+.photos-container {
+	overflow: hidden;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.photo {
+	position: relative;
+
+	width: 30%;
+	float: left;
+	border-radius: 4px;
+	margin-bottom: 35px;
+  margin-right: 5%;
+
+	background-size: cover;
+	cursor: pointer;
+  display: block;
+}
+
+.photo:nth-child(3n) {
+  margin-right: 0;
+}
+
+.photo:hover:after {
+	opacity: 1;
+	transform: scale(1);
+}
+
+.photo:before{
+	content: "";
+	display: block;
+	padding-top: 100%; 	/* initial ratio of 1:1*/
+}
+
+.photo:after {
+	transition: all 0.4s ease;
+	opacity: 0;
+	transform: scale(1.2);
+	font-family: FontAwesome;
+	content: '\f002';
+	position: absolute;
+	top: calc(50% - 20px);
+	left: calc(50% - 20px);
+	background-color: rgba(0,0,0,0.5);
+	/* width: 40px;
+	height: 40px; */
+	border-radius: 50%;
+	padding: 10px 16px;
+}
+
+.photo-container {
+	position:  absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	color: white;
+	text-align: center;
+	/* display: block;
+	width: 100%;
+	height: 100%; */
+}
+
+.photo-container img {
+	width: 100%;
+	height: 100%;
+	border-radius: 4px;
+}
