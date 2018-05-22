@@ -1279,6 +1279,8 @@
 				#header .content .inner h1 {
 					font-family: 'Vollkorn', serif;
 					text-transform: capitalize;
+					font-weight: 400;
+					letter-spacing: 1px;
 				}
 
 			#header .content p {
