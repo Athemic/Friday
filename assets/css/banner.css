@@ -1,6 +1,6 @@
 .banner {
     background-color: rgba(27, 31, 34, 0.85);
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
