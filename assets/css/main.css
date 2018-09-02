@@ -1614,7 +1614,3 @@
 		body.is-loading #footer {
 			opacity: 0;
 		}
-
-.float-right {
-	float: none;
-}
