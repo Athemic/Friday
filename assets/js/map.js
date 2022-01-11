@@ -45,4 +45,9 @@ function initMap() {
     map: map,
   });
 
+  marker.addListener("click", () => {
+    var url = 'https://www.google.be/maps/dir/My+Location/Friday,+Zilverhof+35,+9000+Gent/@51.0592604,3.7172669,15.75z/';
+    window.open(url, '_blank').focus();
+  });
+
 }
