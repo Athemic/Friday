@@ -955,7 +955,6 @@
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
-	button,
 	.button {
 		-moz-appearance: none;
 		-webkit-appearance: none;
@@ -1048,8 +1047,8 @@
 
 	input[type="submit"],
 	input[type="reset"],
-	input[type="button"],
-	button {
+	input[type="button"]
+	{
 		line-height: calc(2.75rem - 2px);
 	}
 

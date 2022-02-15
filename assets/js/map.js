@@ -38,6 +38,7 @@ function initMap() {
     center: uluru,
     styles: styles,
     streetViewControl: false,
+    mapTypeControl: false,
   });
 
   var marker = new google.maps.Marker({
