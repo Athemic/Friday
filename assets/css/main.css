@@ -1416,7 +1416,8 @@
 		@media screen and (max-width: 480px) {
 
 			#header {
-				padding: 1.5rem 0;
+				/*padding: 4.5rem 0 1.5em;*/
+				padding: 1.5rem 0 1.5em;
 			}
 
 				#header .content .inner {
